@@ -25,8 +25,9 @@ main {
     width: 100%;
     height: 50px; 
     overflow: hidden; 
-    background: #BCCE98;
+    background: #333333;
 }
+
 
 #footer {
     position: absolute;
@@ -35,7 +36,7 @@ main {
     width: 100%;
     height: 50px; 
     overflow: hidden; 
-    background: #BCCE98;
+    background: #333333;
 }
         
 #nav {
@@ -45,7 +46,7 @@ main {
     left: 0; 
     width: 230px;
     overflow: auto; 
-    background: #DAE9BC; 		
+    background: #424144; 		
 }
 
 .innertube {
@@ -53,9 +54,12 @@ main {
 }
 
 p {
-    color: #555;
+    color: #f0f0f0;
 }
 
+h1 {
+    color: #f0f0f0;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -63,7 +67,7 @@ nav ul {
 }
 
 nav ul a {
-    color: darkgreen;
+    color: #f0f0f0;
     text-decoration: none;
 }
         
