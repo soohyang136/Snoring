@@ -1,20 +1,22 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+  <title>로그인</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/static/stylelogin.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-            <form action="/post" method="post">
-                <label> I  D </label><input type="text" name="inputID">
-                <label> PW </label><input type="text" name="inputPW">
-                <button>로그인</button>
-            </form>
-        <div class="search">
-            <button>회원가입</button>
-            <button>찾기</button>
-        </div>
+  <div class="login-form">
+    <form action="/post" method="post">
+      <input type="text" name="inputID" class="text-field" placeholder="아이디">
+      <input type="password" name="inputPW" class="text-field" placeholder="비밀번호">
+      <input type="submit" value="로그인" class="submit-btn">
+    </form>
+ 
+    <div class="links">
+        <a href="#">회원가입하기</a><br>
     </div>
+  </div>
 </body>
 </html>
